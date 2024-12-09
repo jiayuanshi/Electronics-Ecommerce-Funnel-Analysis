@@ -1,1 +1,1 @@
-# Electroincs-Ecommerce-Funnel-Analysis
+# Electroincs Ecommerce Funnel Analysis
