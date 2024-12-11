@@ -1,8 +1,8 @@
 # Electroincs Ecommerce Funnel Analysis
 Table of Contents:
 [Project Background](https://github.com/jiayuanshi/Electronics-Ecommerce-Funnel-Analysis?tab=readme-ov-file#project-background)
-[Executive Summary] (https://github.com/jiayuanshi/Electronics-Ecommerce-Funnel-Analysis?tab=readme-ov-file#executive-summary)
-[Insights Deep-Dive] (https://github.com/jiayuanshi/Electronics-Ecommerce-Funnel-Analysis?tab=readme-ov-file#insights-deep-dive)
+[Executive Summary](https://github.com/jiayuanshi/Electronics-Ecommerce-Funnel-Analysis?tab=readme-ov-file#executive-summary)
+[Insights Deep-Dive](https://github.com/jiayuanshi/Electronics-Ecommerce-Funnel-Analysis?tab=readme-ov-file#insights-deep-dive)
 
 ## Project Background
 In this project, we are going to dive through the datasets of an ecommerce online shop's user event history in electronics field specifically with the purpose of improving budget relocation for sales, product, and marketing. With over 800k instances collected by Open CDP project, we will perform sale trend, funnel, and product analysis with time dimension of 5 months (Oct 2020-Feb 2021). 
