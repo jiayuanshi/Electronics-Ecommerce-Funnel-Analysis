@@ -17,19 +17,18 @@ The store's 5-month records show monthly revenue fluctuating around $0.9 million
 
 ## Insights Deep-Dive
 ### Monthly Sales Trends & Growth Rates
-![Fig 1](Visualization/MonthlySales.png)
 - The store has acheived $0.8 million in monthly sales with 4919 orders per month.
 - The two obvious growths of total revenue has reflected the seasonality of sales, especially in November and Janurary, which corresponds to revenue growth of 43% and 99% (almost doubled!!) respectively.
 - During the 5 months, revenue and orders growth fluactuated with different direction but a good sign is that the average order value (AOV) has increased steadily, showing an uptrend in customers' consumption power.
+![Fig 1](Visualization/MonthlySales.png)
 
 ### Key Categories Performance
-![Fig 2](Visualization/CategorySales.png)
-![Fig 3](Visualization/MonthlyMetrics.png)
-
 - Among the four categories, `computers` and `electronics` has contributed to 98% of total revenue.
 - `Computers` accounts for 87% of total revenues and 69% of total orders (16870 orders). Simultaneously, it is also the category with highest AOV, $221 per order. 
 - There are two peaks in `computers`'s total orders graph -- Nov 2020 and Jan 2021, which can be associated with Black Friday and other factor.
 - Although `accessories` only engaged with little revenue and order amount (approximately 0% for both), there's a dramatic increase by growth rates in Dec 2020, showing its popularity in gift selection for fesival.
+![Fig 2](Visualization/CategorySales.png)
+![Fig 3](Visualization/MonthlyMetrics.png)
 
 ### Funnel Analysis
 - With a smaller peak in Nov 2020, possibly related to Black Friday sales, and a huge increase in Jan 2021, seasonality is reflected with all three types of event history (`view`, `cart`, `purchase`).
