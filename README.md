@@ -6,6 +6,7 @@ Table of Contents:
     - [Monthly Sales Trends & Growth Rates](https://github.com/jiayuanshi/Electronics-Ecommerce-Funnel-Analysis?tab=readme-ov-file#monthly-sales-trends--growth-rates)
     - [Key Categories Performance](https://github.com/jiayuanshi/Electronics-Ecommerce-Funnel-Analysis?tab=readme-ov-file#key-categories-performance)
     - [Funnel Analysis](https://github.com/jiayuanshi/Electronics-Ecommerce-Funnel-Analysis?tab=readme-ov-file#funnel-analysis)
+    - [Single vs Repeat Purchase](https://github.com/jiayuanshi/Electronics-Ecommerce-Funnel-Analysis#single-vs-repeat-purchase)
 - [Recommendations](https://github.com/jiayuanshi/Electronics-Ecommerce-Funnel-Analysis?tab=readme-ov-file#recommendations)
 - [Assumptions and Caveats](https://github.com/jiayuanshi/Electronics-Ecommerce-Funnel-Analysis?tab=readme-ov-file#assumptions-and-caveats)
 
@@ -58,5 +59,5 @@ The store's 5-month records show monthly revenue fluctuating around $0.9 million
 - Encourage Repeat Purchases: Deliver marketing related promotional content for single-purchased customers, especially within `computers` and `accesories` categories during December, further expanding markets among existing customers by increasing recurring customers.
 
 ## Assumptions and Caveats
-- **Product Categories Selection**
-    - Due to our goal of exploring electronics related products only and with consideration of data integrety, the categories successfully passed the quality check are `accessories`, `appliances`,  `computers`, and `electronics`. 
+**Product Categories Selection**
+- Due to our goal of exploring electronics related products only and with consideration of data integrety, the categories successfully passed the quality check are `accessories`, `appliances`,  `computers`, and `electronics`. 
