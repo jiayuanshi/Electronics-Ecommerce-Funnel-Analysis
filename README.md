@@ -64,5 +64,4 @@ The store's 5-month records show monthly revenue fluctuating around $0.9 million
 - **Product Categories Selection**: Due to our goal of exploring electronics related products only and with consideration of data integrety, the categories successfully passed the quality check are `accessories`, `appliances`,  `computers`, and `electronics`. 
 - **Brand**: Ambiguity exists in the `brand` variable—it's unclear if `nan` is referring to NaN (None value) or a brand name.
 
-
-See the notebook for data cleaning, visualization, and analysis in the [Python Notebook]()
+See the notebook for data cleaning, visualization, and analysis in the [Python Notebook](https://github.com/jiayuanshi/Electronics-Ecommerce-Funnel-Analysis/blob/main/ElectronicsAnalysis.ipynb)
