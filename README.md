@@ -63,3 +63,6 @@ The store's 5-month records show monthly revenue fluctuating around $0.9 million
 - **Missing Records**: There are roughly 236k (26%) of instances with `category_id` but without `category_code`. This discrepancy indicates missing data or data entry errors with previous steps while joining with relational databases. 
 - **Product Categories Selection**: Due to our goal of exploring electronics related products only and with consideration of data integrety, the categories successfully passed the quality check are `accessories`, `appliances`,  `computers`, and `electronics`. 
 - **Brand**: Ambiguity exists in the `brand` variable—it's unclear if `nan` is referring to NaN (None value) or a brand name.
+
+
+See the notebook for data cleaning, visualization, and analysis in the [Python Notebook]()
