@@ -44,7 +44,7 @@ The store's 5-month records show monthly revenue fluctuating around $0.9 million
 
 ### Single vs Repeat Purchase
 - Repeat purhcase has shown a good sign of consistently increasing trend, even thought the percentage to total monthly revenue has decreased a little in Dec 2020.
-- Meanwhile, the greatest discrepancy between single and repeat purchase is obtained in Dec 2020, which is 19% and $122,171. 
+- Meanwhile, the greatest discrepancy between single and repeat purchase is obtained in Dec 2020, which is 19% on average and $122,171 in total.  
 - Among 4 categories of products we are focusing on, `computers` and `accessories` achieved under 20% difference between single and repeat purchase percentage in monthly total revenue, indicating the potential market in existing customers. 
 
 ![Fig 6](Visualization/PurchaseTypeCharts.png)
@@ -53,11 +53,13 @@ The store's 5-month records show monthly revenue fluctuating around $0.9 million
 ## Recommendations
 ### Maximizing Product Offerings
 - Expand High-Performing Categories: Increase catalog variations in computers and electronics to meet diverse customer needs, driving repeat purchases and solidifying market presence.
-- Respond to Seasonal Sales Events: Promote computers and accessories products corresponding to seasonality and customer consumption habits, ensuring efficient product selection and purchase process.
+- Respond to Seasonal Sales Events: Promote computers and accessories products corresponding to seasonality, (especially November and Janurary for the first and fourth quarter) ensuring efficient product selection and purchase process.
 ### Customer Growth
-- Boost Purchases after Adding to Cart: Target customers having multiple items added to cart with personalized engagement campaigns to incentivize purchases and improve retention. 
-- Encourage Repeat Purchases: Deliver marketing related promotional content for single-purchased customers, especially within `computers` and `accesories` categories during December, further expanding markets among existing customers by increasing recurring customers.
+- Boost Add-to-Cart Conversion Rate: Include descriptive but necessary product copy and deploy social proof as authority signals for customers' references, ensuring smooth and engaging user experience.
+- Enhance Personalized Engagement: Target customers having multiple items added to cart with personalized engagement campaigns to incentivize purchases and improve retention. 
+- Encourage Repeat Purchases: Deliver marketing related promotional content for single-purchased customers, especially within computers and accessories categories during December, further expanding markets among existing customers by increasing recurring customers.
 
 ## Assumptions and Caveats
-**Product Categories Selection**
-- Due to our goal of exploring electronics related products only and with consideration of data integrety, the categories successfully passed the quality check are `accessories`, `appliances`,  `computers`, and `electronics`. 
+- **Missing Records**: There are roughly 236k (26%) of instances with `category_id` but without `category_code`. This discrepancy indicates missing data or data entry errors with previous steps while joining with relational databases. 
+- **Product Categories Selection**: Due to our goal of exploring electronics related products only and with consideration of data integrety, the categories successfully passed the quality check are `accessories`, `appliances`,  `computers`, and `electronics`. 
+- **Brand**: Ambiguity exists in the `brand` variable—it's unclear if `nan` is referring to NaN (None value) or a brand name.
