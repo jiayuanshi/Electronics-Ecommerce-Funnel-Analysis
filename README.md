@@ -30,30 +30,34 @@ The store's 5-month records show monthly revenue fluctuating around $0.9 million
 - There are two peaks in `computers`'s total orders graph -- Nov 2020 and Jan 2021, which can be associated with Black Friday and other factor.
 - Although `accessories` only engaged with little revenue and order amount (approximately 0% for both), there's a dramatic increase by growth rates in Dec 2020, showing its popularity in gift selection for fesival.
 
-![Fig 2](Visualization/CategorySales.png)
-![Fig 3](Visualization/MonthlyMetrics.png)
+![Fig 2](Visualization/SalesMetricsChart.png)
+![Fig 3](Visualization/SalesMetricsHeatmap.png)
+![Fig 4](Visualization/CategorySales.png)
 
 ### Funnel Analysis
 - With a smaller peak in Nov 2020, possibly related to Black Friday sales, and a huge increase in Jan 2021, seasonality is reflected with all three types of event history (`view`, `cart`, `purchase`).
-- Overall, cart conversion rate increases but purchase conversion rate decreases. On average, cart conversion rate is 9% meanwhile purchase conversion rate is 63%.
-- From the perspective of cart conversion rate, overall there's a steady increase from 7% to 10% but with December and Feburary's add-to-cart rate same as previous month (8% and 10% respectively), showing temporary effects of sales events on the following month.
-- Even though from Dec 2020 to Jan 2021, total purchase has surged by roughly 65%, purchase conversion rate has reduced from 64% to 59%.
+- Overall, cart conversion rate increases but purchase conversion rate decreases. On average, cart conversion rate is 8% meanwhile purchase conversion rate is 66%.
+- From the perspective of cart conversion rate, overall there's a steady increase from 7% to 9% but with November and Feburary's add-to-cart rate similar to previous month (7% and 9% respectively), showing temporary effects of sales events on the following month.
+- Even though from Dec 2020 to Jan 2021, total purchase has surged by roughly 42%, purchase conversion rate has reduced from 66% to 62%.
+- `Computers` would be considered the most popular category for its view, cart, and purchase metrics all ranked as the highest. Over the 5 months, `computers` has obtained the highest add-to-cart conversion rate of 10% but with the lowest purchase conversion rate of 62%.
+- Meanwhile, `accessories` has achieved the highest purchase conversion rate of 86%. 
 
-![Fig 4](Visualization/FunnelCharts.png)
-![Fig 5](Visualization/FunnelMetrics.png)
+![Fig 5](Visualization/FunnelChart.png)
+![Fig 6](Visualization/FunnelMetricsTable.png)
 
 ### Single vs Repeat Purchase
 - Repeat purhcase has shown a good sign of consistently increasing trend, even thought the percentage to total monthly revenue has decreased a little in Dec 2020.
 - Meanwhile, the greatest discrepancy between single and repeat purchase is obtained in Dec 2020, which is 19% on average and $122,171 in total.  
 - Among 4 categories of products we are focusing on, `computers` and `accessories` achieved under 20% difference between single and repeat purchase percentage in monthly total revenue, indicating the potential market in existing customers. 
 
-![Fig 6](Visualization/PurchaseTypeCharts.png)
-![Fig 7](Visualization/PurchaseTypeMetrics.png)
+![Fig 7](Visualization/RepeatPurchaseCharts.png)
+![Fig 8](Visualization/PurchaseTypeMetrics.png)
 
 ## Recommendations
 ### Maximizing Product Offerings
-- Expand High-Performing Categories: Increase catalog variations in computers and electronics to meet diverse customer needs, driving repeat purchases and solidifying market presence.
+- Expand High-Performing Categories: Keep recommending diverse products in computers and electronics based on customer features to meet diverse needs, driving repeat purchases and solidifying market presence.
 - Respond to Seasonal Sales Events: Promote computers and accessories products corresponding to seasonality, (especially November and Janurary for the first and fourth quarter) ensuring efficient product selection and purchase process.
+- Diversifying Categories with High Potential: Increase catalog variations in accessories to expand market reach and enhance customer satisfaction, encouraging more add-to-cart action then total purchase. 
 ### Customer Growth
 - Boost Add-to-Cart Conversion Rate: Include descriptive but necessary product copy and deploy social proof as authority signals for customers' references, ensuring smooth and engaging user experience.
 - Enhance Personalized Engagement: Target customers having multiple items added to cart with personalized engagement campaigns to incentivize purchases and improve retention. 
@@ -63,5 +67,6 @@ The store's 5-month records show monthly revenue fluctuating around $0.9 million
 - **Missing Records**: There are roughly 236k (26%) of instances with `category_id` but without `category_code`. This discrepancy indicates missing data or data entry errors with previous steps while joining with relational databases. 
 - **Product Categories Selection**: Due to our goal of exploring electronics related products only and with consideration of data integrety, the categories successfully passed the quality check are `accessories`, `appliances`,  `computers`, and `electronics`. 
 - **Brand**: Ambiguity exists in the `brand` variable—it's unclear if `nan` is referring to NaN (None value) or a brand name.
+- **Grain**: When mentioning `xx over time`, we are using weekly data as grain. In other words, all plots (except for the heatmap) with time dimensions are composed of weekly summary data.
 
-See the notebook for data cleaning, visualization, and analysis in the [Python Notebook](https://github.com/jiayuanshi/Electronics-Ecommerce-Funnel-Analysis/blob/main/ElectronicsAnalysis.ipynb)
+See the notebook for data cleaning, visualization, and analysis in the [Python Notebook](https://github.com/jiayuanshi/Electronics-Ecommerce-Funnel-Analysis/blob/main/ElectronicsAnalysis.ipynb); the Tableau worksheet for data visualization and insight generation through [Tableau1](https://public.tableau.com/app/profile/irene.shi2071/viz/ElectronicsStore-SalesFunnel/SalesMetricsDashboard) and [Tableau2](https://public.tableau.com/app/profile/irene.shi2071/viz/ElectronicsStore-PurchaseHistory/RepeatPurchaseDashboard).
